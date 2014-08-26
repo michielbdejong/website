@@ -8,6 +8,8 @@ The project aims at building an independent free and open source software as a s
 
 Let's say, there is a bug on Internet, e.g., gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a simple piece of software to host them all, and provide the service for the end user, in an easy way.
 
+Did you realise that if you go to many FOSS project page, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button.
+
 And, contrary to many other silos, people will be free to move between indiehosters. They will even be able to start their own with their data. This is really important for us that people are free to change their service provider at any time.
 
 ###  1.2. the relative advantage of the proposed innovation
