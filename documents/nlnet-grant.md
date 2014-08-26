@@ -142,8 +142,20 @@ For the long term sustainability, we can also imagine all kind of hosters:
 
 We find this way to be really healthy. Then users will have choice among hosters. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
 
-###  7.1. Hosters Adoption
+###  7.2. Hosters Adoption
+
+If not a lot of end users request this service, there will be no hosters (beside us) neither. And this is also really bad. Bad in the sense that users will have the choice just between 2 hosters, us. This would be a limited definition of freedom to move your data.
+
+We hope that by focusing on mitigating the first risk, this one will not happen.
 
 ## 8. Project results dissemination
 
+Once we release the stable version, we have a creative way of disseminating the service. The idea is to replace the traditional `demo` button you can find on many FOSS projects by a `sign up` button. This button will bring the user to his personal hoster and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSS developers to implement this functionality on the project page before they launch it on the media.
+
+It will be win/win partnership. FOSS developer will be happy because they will have more users using their software (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more indiehosters).
+
 ## 9. Follow-ups on the project
+
+This is a long term project. We ask NLnet to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, add more and more services to our offer.
+
+If we don't have anymore funding, that's also fine. If enough people are using it, more and more indehosters will be there. So the community will be able to maintain the product by itself. And us, the founders, will continue to maintain our hosts and provide services (added by the community) to our users.
