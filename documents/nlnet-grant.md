@@ -9,9 +9,7 @@ It will allow us to build blazing simple tools, for powerful and resilient infra
 
 ### 1.1. the problem solved by this project
 
-Let's say, there is a bug on Internet, e.g., gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a simple piece of software to host them all, and provide the service for the end user, in an easy way.
-
-Did you realise that if you go to many FOSS project page, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button.
+Let's say, there is a bug on Internet, e.g., gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install the source code on their server, bug solved! Most of people online don't even know what a server is and even less, what source code means. Did you realise that if you go to many FOSS project page, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button. We will write a simple piece of software to host all FOSS, and provide the service for the end user, in an easy way.
 
 And, contrary to many other silos, people will be free to move between indiehosters. They will even be able to start their own with their data. This is really important for us that people are free to change their service provider at any time.
 
