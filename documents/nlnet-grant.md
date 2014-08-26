@@ -4,13 +4,13 @@
 
 The project aims at building an independent free and open source software as a service provider without profit. The first goal is to build a minimum set of tools for system administrator and DevOps to manage such a service. It will allow people with minimum knowledge in this area to start hosting these software for their community. The second and main goal is to develop this network. We believe that local and small scale hosters is the way to fight against centralised Internet (e.g. google). And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
 
-### 1. the problem solved by this project
+### 1.1. the problem solved by this project
 
 Let's say, there is a bug on Internet. For instance: gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software (mailpile for instance), and people will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a little piece of software to host them all, and provide the service for the end user, in an easy way.
 
 And, contrary to many other silo, people will be free to move between indiehosters, or even start their own with their data. This is really important for us that people are free to change their service provider.
 
-###  2. the relative advantage of the proposed innovation
+###  1.2. the relative advantage of the proposed innovation
 
 If you compare us to:
 - google/facebook: our advantage is that we don't aim at selling personal data.
@@ -20,17 +20,17 @@ If you compare us to:
 
 We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
 
-###  3. usability: for whom and to what purpose
+###  1.3. usability: for whom and to what purpose
 
 We firstly target a geek (woman or man). She/He is probably working as software engineer and cares about free software and likes playing around/tinkering with computers. And more generally, anybody that is concerned by privacy, and ready to give up a bit of usability and money in exchange of freedom. These persons are concerned by their privacy. And they want to take back control over their data. Unfortunately, these people don't have time or sufficient knowledge to administer these services by themselves.
 
-###  4. perspectives for further development of this innovation and/or other technologies
+###  1.4. perspectives for further development of this innovation and/or other technologies
 
 As more and more people are concerned by their privacy and ownership of data, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in term of development, this is a really interesting area to focus on. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
 
 We believe that redecentralising Internet is the most important mission we have today.
 
-###  5. relevance for nlnet's mission
+###  1.1. relevance for nlnet's mission
 
 We believe writing software to make Internet a better place is nice. But it is worthless the effort if nobody is willing to host them. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back ownership over their data.
 
@@ -62,7 +62,7 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 
 We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for 1st of january, the end of our possible crowdfunding campaign. Here is our planning, with deliverables, for the 2 next quarterly.
 
-### 1st January 2015: beta release
+#### 1st January 2015: beta release
 - a web app to provision users. They are able to get
   - a subdomain (with our ssl certificate)
 - a basic configuration for service provisioning tool (based on docker) to provide the following services
@@ -83,7 +83,7 @@ At this stage users can ask us to manually perform the following actions
 
 During the beta, most of the services are not yet automatic nor stables, but everything is working, even if it needs human intervention.
 
-### 1st April 2015: stable release
+#### 1st April 2015: stable release
 
 - control panel: a web app to control the following functionalities
   - start a service (among a list)
@@ -125,7 +125,7 @@ In any case, as the cost of the VMs is really low, we commit ourselves to keep r
 
 ## 7. Project risks
 
-###  1. Adoption
+###  7.1. Adoption
 
 ## 8. Project results dissemination
 
