@@ -127,7 +127,20 @@ In any case, as the cost of the VMs is really low, we commit ourselves to keep r
 
 ## 7. Project risks
 
-###  7.1. Adoption
+###  7.1. End users Adoption
+
+The first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for long term sustainability, we aim at a donation based business model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they can have in exchange of their private data (which people value less and less).
+
+To mitigate this risk we aim firstly at people aware of privacy issues on Internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
+
+For the long term sustainability, we can also imagine all kind of hosters:
+- for profit hosters (i.e. OVH, Gandi, 1and1)
+- hosters reselling personal data (we are fine with that as long as the end user is aware)
+- non-profit hosters (like us)
+
+We find this way to be really healthy. Then users will have choice among hosters. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
+
+###  7.1. Hosters Adoption
 
 ## 8. Project results dissemination
 
