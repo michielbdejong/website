@@ -2,7 +2,10 @@
 
 ## 1. Project plan
 
-The project aims at building an independent free and open source software as a service provider without profit. The first goal is to build a simple web application linked with a provisioning tool to provide such a service. It will allow people with minimum server administration knowledge to start hosting these softwares for their community. The second and main goal is to develop this network of independent hosters. We believe that local and small scale hosters is the way to fight against centralised Internet, e.g., google, facebook. And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
+The project aims at building an independent free and open source software as a service provider. The first goal is to build a simple web application linked with a provisioning tool to provide such a service. It will allow people with minimum server administration knowledge to start hosting these softwares for their community. The second and main goal is to develop this network of independent hosters. We believe that local and small scale hosters is the way to fight against centralised Internet, e.g., google, facebook. And we believe it is the right time to do it, for two reasons:
+- Hardware is getting cheaper and cheaper
+- automation tools start to be mature
+It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
 
 ### 1.1. the problem solved by this project
 
@@ -54,15 +57,15 @@ We are at early stage of the project, and you can follow progress on our [GitHub
 
 ## 4. Project setup
 
-The project will be entirely funded by donations and its goals are entirely non-profit. We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else. The project will employ Michiel de Jong and Pierre Ozoux as full-time free-lance contractor. 
+The project will be entirely funded by donations and its goals are entirely non-profit. We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else. The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor.
 
-Much of the expertise Michiel brings to the project, was built up as founder at unhosted. http://www.linkedin.com/in/michielbdejong
+Much of the expertise Michiel brings to the project, was built up as founder at unhosted.
 
-Pierre works since two years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like Chef and Packer. http://www.linkedin.com/in/pierreozoux
+Pierre works since two years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like Chef and Packer.
 
 ## 5. Project planning
 
-We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january, the end of our possible crowdfunding campaign. Here is our planning, with deliverables, for the two next quarterly.
+We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january. Here is our planning, with deliverables, for the next two quarterly.
 
 #### 1st January 2015: beta release
 - a simple web app to provision users. They are able to get a subdomain (with our ssl certificate)
@@ -89,13 +92,14 @@ During the beta, most of the services are not yet automatic nor stables, but eve
 - control panel: a web app to control the following functionalities
   - start a service
     - linked to an advanced configuration for automatic service provisioning
-  - link domain name (with ssl certificate)
+  - configure domain name (with ssl certificate)
   - backup personal data
   - migration to another hoster
 
 So the idea is to write two small pieces of software:
-- a simple web application to allow users to manage their services.
-- a configuration to link this web application to a provisioning tool.
+- a simple web application to allow users to manage their services
+- a configuration to link this web application to a provisioning tool
+
 We aim at simplicity, and writing as little code as possible. Just the strict necessary.
 
 These two deliverables will be shipped the first of April (hopefully without jokes inside!).
@@ -111,13 +115,13 @@ The salary budget is 6x3000 = 18000 euros. This includes:
 - 200 euros/month reserved for taxes and other administrative costs like registry and bank fees - 2 people
 - 200 euros/month reserved for demo hosting, conference attendance, and miscellaneous costs - 2 people
 
-There is also virtual machine cost. We aim at 10 euros/month and per VM. We need two VMs per hoster. Which brings the total to 240€ for six months.
+There is also virtual machine cost. We aim at 10 euros/month/VM. We need two VMs per hoster. Which brings the total to 240 euros for six months.
 
 The total budget is then 18240 euros.
 
 It means that:
-- beta release: 9120€
-- stable release: 9120€
+- beta release: 9120 euros
+- stable release: 9120 euros
 
 Two financing plans are thought:
 - the perfect one: NLnet finances the beta and stable release.
@@ -140,7 +144,7 @@ For the long term sustainability, we can also imagine all kind of hosters:
 - hosters reselling personal data (we are fine with that as long as the end user is aware)
 - non-profit hosters (like us)
 
-We find this way to be really healthy. Then users will have choice among hosters. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
+We find this way to be really healthy ecosystem. Then users will have choice among hosters. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
 
 ###  7.2. Hosters Adoption
 
@@ -150,12 +154,12 @@ We hope that by focusing on mitigating the first risk, this one will not happen.
 
 ## 8. Project results dissemination
 
-Once we release the stable version, we have a creative way of disseminating the service. The idea is to replace the traditional `demo` button you can find on many FOSS projects by a `sign up` button. This button will bring the user to his personal hoster and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSS developers to implement this functionality on the project page before they launch it on the media.
+Once we release the stable version, we have a creative way of disseminating the project. The idea is to replace the traditional `demo` button you can find on many FOSS projects by a `sign up` button. This button will bring the user to his personal hoster and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSS developers to implement this functionality on the project page before they launch it on the media.
 
 It will be win/win partnership. FOSS developer will be happy because they will have more users using their software (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more indiehosters).
 
 ## 9. Follow-ups on the project
 
-This is a long term project. We ask NLnet to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, add more and more services to our offer.
+This is a long term project. We ask NLnet help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more services to our offer.
 
 If we don't have anymore funding, that's also fine. If enough people are using it, more and more indehosters will be there. So the community will be able to maintain the product by itself. And us, the founders, will continue to maintain our hosts and provide services (added by the community) to our users.
