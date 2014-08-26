@@ -2,29 +2,33 @@
 
 ## 1. Project plan
 
-The project aims at building a network of Application Service Provider without profit. The first goal is to build tools for system administrator and DevOps to manage such a service. It will allow people with minimum knowledge in this area to start hosting Internet application for their community. The second goal is to develop this network. We believe that local small scale hosters is the way to fight against centralised Internet application provider (e.g. google). And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
+The project aims at building an independent free and open source software as a service provider without profit. The first goal is to build a minimum set of tools for system administrator and DevOps to manage such a service. It will allow people with minimum knowledge in this area to start hosting these software for their community. The second and main goal is to develop this network. We believe that local and small scale hosters is the way to fight against centralised Internet (e.g. google). And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
 
 ### 1. the problem solved by this project
 
 Let's say, there is a bug on Internet. For instance: gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software (mailpile for instance), and people will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a little piece of software to host them all, and provide the service for the end user, in an easy way.
 
-Not as any other silo, people will be free to move between indiehosters, or even start their own with their data. This is really important for us that people are free to change application service provider.
+And, contrary to many other silo, people will be free to move between indiehosters, or even start their own with their data. This is really important for us that people are free to change their service provider.
 
 ###  2. the relative advantage of the proposed innovation
 
 If you compare us to:
-- google: our advantage is that we don't aim at selling personal data.
+- google/facebook: our advantage is that we don't aim at selling personal data.
 - wordpress.com: our advantage is that we will be much cheaper.
 - Yunohost/owncloud/cozycloud: our advantage is we can offer the 3 to end users.
 - sandstorm.io: we will be more high availability
 
+We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
+
 ###  3. usability: for whom and to what purpose
 
-We firstly target a geek (woman or man). She/He is probably working as software engineer and cares about free software and likes playing around/tinkering with computers. Or anybody that is concerned by privacy, and ready to  give up a bit of usabilty and money in exchange of freedom. This persons are concerned by their privacy and owning control over their data, but they don't have time to administer this softwares by themselves.
+We firstly target a geek (woman or man). She/He is probably working as software engineer and cares about free software and likes playing around/tinkering with computers. And more generally, anybody that is concerned by privacy, and ready to give up a bit of usability and money in exchange of freedom. These persons are concerned by their privacy. And they want to take back control over their data. Unfortunately, these people don't have time or sufficient knowledge to administer these services by themselves.
 
 ###  4. perspectives for further development of this innovation and/or other technologies
 
-As more and more people are concerned by their privacy and ownership of data, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see more and more people are interested. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
+As more and more people are concerned by their privacy and ownership of data, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in term of development, this is a really interesting area to focus on. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
+
+We believe that redecentralising Internet is the most important mission we have today.
 
 ###  5. relevance for nlnet's mission
 
@@ -40,8 +44,7 @@ The idea of a personal/cloud app store is not new. A lot of people already try t
 - owncloud
 - arkos
 
-For now, just two of them offer hosting services as well (owncloud and sandstorm). The idea is to host them all, and offer the end user the choice for his app store (based on the existing list, and future software)
-
+For now, just two of them offer hosting services as well (owncloud and sandstorm). The idea is to host them all, and offer the end user the choice for his app store (based on this existing list, and future software)
 
 ## 3. Existing work by us
 
@@ -53,39 +56,72 @@ The project will be entirely funded by donations and its goals are entirely non-
 
 Much of the expertise Michiel brings to the project, was built up as founder at unhosted. http://www.linkedin.com/in/michielbdejong
 
-Pierre works since 2 years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like Chef or Packer. http://www.linkedin.com/in/pierreozoux
+Pierre works since two years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like Chef and Packer. http://www.linkedin.com/in/pierreozoux
 
 ## 5. Project planning
 
-We decided to quit our current position to start this project fulltime on the first of October. We are now on our alpha phase with less than 10 users. We aim at reaching beta for 1st of january, the end of our crowdfunding campaign. Here is our plaaning for the 2 next quarterly.
+We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for 1st of january, the end of our possible crowdfunding campaign. Here is our planning, with deliverables, for the 2 next quarterly.
 
-1st January 2015: enter beta phase. We are able to provide the following services to the end user:
-- emails
-- jabber
-- static html
-- remoteStorage
-- cozycloud
-- yunohost
-- owncloud
-- wordpress
+### 1st January 2015: beta release
+- a web app to provision users. They are able to get
+  - a subdomain (with our ssl certificate)
+- a basic configuration for service provisioning tool (based on docker) to provide the following services
+  - emails
+  - jabber
+  - static html
+  - remoteStorage
+  - yunohost
+  - owncloud
+  - cozycloud
+  - wordpress
+
+At this stage users can ask us to manually perform the following actions
+- start a service
+- have a personal domain name
 - backup personal data
-- switch from one hoster to another one
-During the beta phase, most of the services are not yet automatic, but everything is working, even if it is by hand.
+- migration to another hoster
 
-1st April 2015: enter stable phase. We are able to provide this set of services, in an automatic way. And they are all stables. We might have more services in beta mode. But we focus on providing a small set in stable first.
+During the beta, most of the services are not yet automatic nor stables, but everything is working, even if it needs human intervention.
+
+### 1st April 2015: stable release
+
+- control panel: a web app to control the following functionalities
+  - start a service (among a list)
+    - linked to an advanced configuration for automatic service provisioning
+  - order personal domain name (with ssl certificate)
+  - backup personal data
+  - migration to another hoster
+
+So the idea is to write two small pieces of software. One simple webapp to allow user to manage their services. And a configuration to link this webapp to a provisioning tool. We aim at simplicity, and writing as little code as possible. Just the strict necessary.
+
+These two deliverables will be shipped the first of April (hopefully without jokes inside!).
 
 ## 6. Project budgeting
 
-There is not much expenses besides the salary of the 2 founders. So the budget goes as following for the first 6 months:
-The budget is 6x3000 = 18000 euros. This includes:
+There is not much expenses besides the salary of the two founders. So the budget goes as following for the first six months:
+The salary budget is 6x3000 = 18000 euros. This includes:
 
-* 2000 euros/month net 'salary' - 2 people
-* 300 euros/month German/Portuguese health insurance - 2 people
-* 300 euros/month desk in a flex-office - 2 people
-* 200 euros/month reserved for taxes and other administrative costs like registry and bank fees - 2 people
-* 200 euros/month reserved for demo hosting, conference attendance, and miscellaneous costs - 2 people
+- 2000 euros/month net 'salary' - 2 people
+- 300 euros/month German/Portuguese health insurance - 2 people
+- 300 euros/month desk in a flex-office - 2 people
+- 200 euros/month reserved for taxes and other administrative costs like registry and bank fees - 2 people
+- 200 euros/month reserved for demo hosting, conference attendance, and miscellaneous costs - 2 people
 
-We will also run a crowdfunding campaign on November, and we hope this will bring us enough to finance the rest of the year.
+There is also virtual machine cost. We aim at 10 euros/month and per VM. We need two VMs per hoster. Which brings the total to 240€ for six months.
+
+The total budget is then 18240 euros.
+
+It means that:
+- beta release: 9120€
+- stable release: 9120€
+
+Two financing plans are thought:
+- the perfect one: NLnet finances the beta and stable release.
+- if it is not possible, we ask NLnet to kindly finance the beta, and we take care of financing the stable through crowdfunding and freelance.
+
+In the latter case, the stable release would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is succesful. Or many months in case we have to freelance to finish the project.
+
+In any case, as the cost of the VMs is really low, we commit ourselves to keep running the services for the beta users.
 
 ## 7. Project risks
 
