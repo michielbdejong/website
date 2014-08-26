@@ -2,24 +2,23 @@
 
 ## 1. Project plan
 
-The project aims at building an independent free and open source software as a service provider. The first goal is to build a simple web application linked with a provisioning tool to provide such a service. It will allow people with minimum server administration knowledge to start hosting these softwares for their community. The second and main goal is to develop this network of independent hosters. We believe that local and small scale hosters is the way to fight against centralised Internet, e.g., google, facebook. And we believe it is the right time to do it, for two reasons:
-- Hardware is getting cheaper and cheaper
+The project aims to build a network of independent free and open source Software-as-a-Service provider. The first goal is to define a standardized way of hosting a person's personal website and personal data server, based on existing free software products. It will allow experienced system administrators to start hosting these softwares - either for their own community, or as a single-person business. The second and main goal is to develop this network of independent hosters. We believe that local and small scale hosters are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the internet internet, e.g., google, facebook. And we believe it is the right time to do it, for two reasons:
+- people are ever more aware of the need to redecentralize the internet
 - automation tools start to be mature
 It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
 
 ### 1.1. the problem solved by this project
 
-Let's say, there is a bug on Internet, e.g., gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install the source code on their server, bug solved! Most of people online don't even know what a server is and even less, what source code means. Did you realise that if you go to many FOSS project page, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button. We will write a simple piece of software to host all FOSS, and provide the service for the end user, in an easy way.
+Let's say, there is a bug on Internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., owncloud. People will install the source code on their server, bug solved! Most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSS project pages, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button. We will write a standardized install script to host all FOSS, and provide the service for the end user, in an easy way.
 
-And, contrary to many other silos, people will be free to move between indiehosters. They will even be able to start their own with their data. This is really important for us that people are free to change their service provider at any time.
+And, because we standardize the folder structure that contains the user data for each software application, people will be free to move between indiehosters by syncing their data folder to the new hoster. They will even be able to start their own server with their data. It is really important for us that people are free to change their service provider at any time.
 
 ###  1.2. the relative advantage of the proposed innovation
 
 If you compare us to:
 - google/facebook: our advantage is that we don't aim at selling personal data.
-- wordpress.com: our advantage is that we will be much cheaper.
-- Yunohost/owncloud/cozycloud: our advantage is we can offer the 3 to end users.
-- sandstorm.io: we will be more high availability
+- wordpress.com: our advantage is that we will be much cheaper because we don't develop any software in-house.
+- Yunohost/owncloud/cozycloud/sandstorm: our advantage is we will offer users any software they want, as long as it is free software we can host for them. Also, users will get the full package of indieweb identity, file server, and online applications, which existing providers do not do.
 
 We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
 
@@ -29,13 +28,13 @@ We firstly target a geek (woman or man). She/He is probably working as software 
 
 ###  1.4. perspectives for further development of this innovation and/or other technologies
 
-As more and more people are concerned by their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in term of development, this is a really interesting area to focus on. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
+As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
 
-We believe that redecentralising Internet is the most important mission we have today.
+We believe that redecentralizing the internet is the most important mission we have today.
 
 ###  1.5. relevance for nlnet's mission
 
-We believe writing software to make Internet a better place is nice. But it is worthless the effort if nobody is willing to host them. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
+We believe writing software to make the internet a better place is nice. But it is not worth the effort if nobody is willing to host it. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
 
 ## 2. Existing work by others
 
@@ -51,11 +50,11 @@ For now, just two of them offer hosting services as well (owncloud and sandstorm
 
 ## 3. Existing work by us
 
-We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). We already have static sites, and an instance of yunohost working. This allows us to provide emails and jabber for our end users.
+We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). We already have static sites working with IPv6+SNI+SPDY, and an instance of yunohost. This allows us to provide emails and jabber for our end users.
 
 ## 4. Project setup
 
-The project will be entirely funded by donations and its goals are entirely non-profit. We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else. The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor.
+The project of bootstrapping the IndieHosters network will be entirely funded by donations and its goals are entirely non-profit. We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else. The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor. Once the network is running in production, each indiehoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
 
 Much of the expertise Michiel brings to the project, was built up as founder at unhosted.
 
@@ -63,7 +62,7 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 
 ## 5. Project planning
 
-We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january. Here is our planning, with deliverables, for the next two quarterly.
+We decided to quit our current position to start this project fulltime on the first of October. We are now in alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january. Here is our planning, with deliverables, for the next two quarterly.
 
 #### 1st January 2015: beta release
 - a simple web app to provision users.
@@ -72,6 +71,9 @@ We decided to quit our current position to start this project fulltime on the fi
   - jabber
   - static html
   - remoteStorage
+  - sockethub
+  - gitlab
+  - openphoto
   - yunohost
   - owncloud
   - cozycloud
@@ -146,18 +148,18 @@ We find this way to be really healthy ecosystem. Then users will have choice amo
 
 ###  7.2. Hosters Adoption
 
-If not a lot of end users request this service, there will be no hosters (beside us) neither. And this is also really bad. Bad in the sense that users will have the choice just between 2 hosters, us. This would be a limited definition of freedom to move your data.
+If not a lot of end users request this service, there will be no hosters (beside us) either. And this is also really bad. Bad in the sense that users will have the choice just between 2 hosters, us. This would be a limited definition of freedom to move your data.
 
 We hope that by focusing on mitigating the first risk, this one will not happen.
 
 ## 8. Project results dissemination
 
-Once we release the stable version, we have a creative way of disseminating the project. The idea is to replace the traditional `demo` button you can find on many FOSS projects by a `sign up` button. This button will bring the user to his personal hoster and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSS developers to implement this functionality on the project page before they launch it on the media.
+Once we release the stable version, we have a creative way of disseminating the project. The idea is to replace the traditional `demo` button you can find on many FOSS projects by a `sign up` button. This button will bring the user to his personal hoster and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSS developers to implement this functionality on the project page before they launch it in the media.
 
-It will be win/win partnership. FOSS developer will be happy because they will have more users using their software (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more indiehosters).
+It will be a win/win partnership. FOSS developer will be happy because they will have more users using their software (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more indiehosters).
 
 ## 9. Follow-ups on the project
 
 This is a long term project. We ask NLnet help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more services to our offer.
 
-If we don't have anymore funding, that's also fine. If enough people are using it, more and more indehosters will be there. So the community will be able to maintain the product by itself. And us, the founders, will continue to maintain our hosts and provide services (added by the community) to our users.
+If we don't have anymore funding, that's also fine. If enough people are using it, more and more indiehosters will be there. So the community will be able to maintain the product by itself. And us, the founders, will continue to maintain our hosts and provide services (added by the community) to our users.
