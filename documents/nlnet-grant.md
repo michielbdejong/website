@@ -68,7 +68,7 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january. Here is our planning, with deliverables, for the next two quarterly.
 
 #### 1st January 2015: beta release
-- a simple web app to provision users. They are able to get a subdomain (with our ssl certificate)
+- a simple web app to provision users.
 - a basic configuration for service provisioning tool (based on docker) to provide the following services
   - emails
   - jabber
