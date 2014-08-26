@@ -2,13 +2,13 @@
 
 ## 1. Project plan
 
-The project aims at building an independent free and open source software as a service provider without profit. The first goal is to build a minimum set of tools for system administrator and DevOps to manage such a service. It will allow people with minimum knowledge in this area to start hosting these software for their community. The second and main goal is to develop this network. We believe that local and small scale hosters is the way to fight against centralised Internet (e.g. google). And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
+The project aims at building an independent free and open source software as a service provider without profit. The first goal is to build a simple web application linked with a provisioning tool to provide such a service. It will allow people with minimum server administration knowledge to start hosting these softwares for their community. The second and main goal is to develop this network of independent hosters. We believe that local and small scale hosters is the way to fight against centralised Internet, e.g., google, facebook. And we believe it is the right time to do it, for two reasons. Hardware is getting cheaper and cheaper. And automation tools start to be mature. It will allow us to build blazing simple tools, for powerful and resilient infrastructure.
 
 ### 1.1. the problem solved by this project
 
-Let's say, there is a bug on Internet. For instance: gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software (mailpile for instance), and people will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a little piece of software to host them all, and provide the service for the end user, in an easy way.
+Let's say, there is a bug on Internet, e.g., gmail is spying private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install them on their server, bug solved! But most of people online don't even know what a server is. So the idea is to write a simple piece of software to host them all, and provide the service for the end user, in an easy way.
 
-And, contrary to many other silo, people will be free to move between indiehosters, or even start their own with their data. This is really important for us that people are free to change their service provider.
+And, contrary to many other silos, people will be free to move between indiehosters. They will even be able to start their own with their data. This is really important for us that people are free to change their service provider at any time.
 
 ###  1.2. the relative advantage of the proposed innovation
 
@@ -26,13 +26,13 @@ We firstly target a geek (woman or man). She/He is probably working as software 
 
 ###  1.4. perspectives for further development of this innovation and/or other technologies
 
-As more and more people are concerned by their privacy and ownership of data, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in term of development, this is a really interesting area to focus on. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
+As more and more people are concerned by their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. We see that more and more people are interested. So in term of development, this is a really interesting area to focus on. And so the ultimate goal is for every people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them to do it.
 
 We believe that redecentralising Internet is the most important mission we have today.
 
-###  1.1. relevance for nlnet's mission
+###  1.5. relevance for nlnet's mission
 
-We believe writing software to make Internet a better place is nice. But it is worthless the effort if nobody is willing to host them. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back ownership over their data.
+We believe writing software to make Internet a better place is nice. But it is worthless the effort if nobody is willing to host them. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
 
 ## 2. Existing work by others
 
@@ -60,11 +60,10 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 
 ## 5. Project planning
 
-We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for 1st of january, the end of our possible crowdfunding campaign. Here is our planning, with deliverables, for the 2 next quarterly.
+We decided to quit our current position to start this project fulltime on the first of October. We are now on alpha phase with a bit less than ten alpha testers. We aim at reaching beta for first of january, the end of our possible crowdfunding campaign. Here is our planning, with deliverables, for the two next quarterly.
 
 #### 1st January 2015: beta release
-- a web app to provision users. They are able to get
-  - a subdomain (with our ssl certificate)
+- a simple web app to provision users. They are able to get a subdomain (with our ssl certificate)
 - a basic configuration for service provisioning tool (based on docker) to provide the following services
   - emails
   - jabber
@@ -86,13 +85,16 @@ During the beta, most of the services are not yet automatic nor stables, but eve
 #### 1st April 2015: stable release
 
 - control panel: a web app to control the following functionalities
-  - start a service (among a list)
+  - start a service
     - linked to an advanced configuration for automatic service provisioning
-  - order personal domain name (with ssl certificate)
+  - link domain name (with ssl certificate)
   - backup personal data
   - migration to another hoster
 
-So the idea is to write two small pieces of software. One simple webapp to allow user to manage their services. And a configuration to link this webapp to a provisioning tool. We aim at simplicity, and writing as little code as possible. Just the strict necessary.
+So the idea is to write two small pieces of software:
+- a simple web application to allow users to manage their services.
+- a configuration to link this web application to a provisioning tool.
+We aim at simplicity, and writing as little code as possible. Just the strict necessary.
 
 These two deliverables will be shipped the first of April (hopefully without jokes inside!).
 
@@ -119,7 +121,7 @@ Two financing plans are thought:
 - the perfect one: NLnet finances the beta and stable release.
 - if it is not possible, we ask NLnet to kindly finance the beta, and we take care of financing the stable through crowdfunding and freelance.
 
-In the latter case, the stable release would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is succesful. Or many months in case we have to freelance to finish the project.
+In the latter case, the stable release would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
 
 In any case, as the cost of the VMs is really low, we commit ourselves to keep running the services for the beta users.
 
