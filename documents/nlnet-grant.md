@@ -54,7 +54,7 @@ And then, during the implementation phase , we target a geek (woman or man). She
 
 When the standard is written, we'll work to promote it. We hope that many HSP will adopt the standard and open their implementation.
 
-As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their freedom box at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
+As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their [Freedom Box](https://freedomboxfoundation.org/) at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
 
 We believe that redecentralizing the Internet is the most important mission we have today. And this standard is one more step closer.
 
@@ -65,7 +65,7 @@ We believe writing software to make the Internet a better place is nice. But it 
 ## 2. Existing work by others
 
 The idea of a personal/cloud app store is not new. A lot of people already try to solve this challenge:
-- freedom box
+- [Freedom Box](https://freedomboxfoundation.org/)
 - [YunoHost](https://yunohost.org/)
 - [Sandstorm](https://sandstorm.io/)
 - [arkos](https://arkos.io/)
