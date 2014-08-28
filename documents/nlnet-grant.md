@@ -2,9 +2,9 @@
 
 ## 0. Lemma
 
-In this application for NLnet grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet applications. For instance, wordpress, postfix, ejabberd are Free and Open Source Internet Application, FOSIA.
+In this application for [NLnet](http://nlnet.nl/) grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet applications. For instance, [wordpress](http://wordpress.org/), [postfix](http://www.postfix.org/), [ejabberd](http://www.process-one.net/en/ejabberd/) are Free and Open Source Internet Application, FOSIA.
 
-We'll also speak about people or companies that provide hosting services for these Internet applications. For instance, Gandi, OVH, riseup, ecobytes and myself at home with a raspberryPi are Hosting Service Provider, HSP.
+We'll also speak about people or companies that provide hosting services for these Internet applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP.
 
 ## 1. Project plan
 
@@ -15,7 +15,7 @@ The first goal is to define a standard way of hosting FOSIA. This standard defin
 The second goal is to make an implementation of such a standard. This implementation will aim firstly at hosting personal website and personal data server, based on existing FOSIA. It will allow experienced system administrators to start their own HSP.
 
 The third and main goal is to develop this network of independent HSP. We believe that local and small scale HSP are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the Internet, e.g., google, facebook. And we believe it is the right time to do it, for three reasons:
-- people are ever more aware of the need to redecentralize the Internet
+- people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the Internet
 - automation tools start to be mature
 - hardware is ever cheaper
 
@@ -23,20 +23,20 @@ It will allow us to build blazing simple tools, for powerful and resilient HSP. 
 
 ### 1.1. the problem solved by this project
 
-Let's say, there is a bug on Internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., mailpile. People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. Mailpile, yunohost) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by simplifying and standardizing hosting of FOSIA. We will write an implementation that will allow having a simple way to provision the Internet application for the end user, from the HSP of his choice.
+Let's say, there is a bug on Internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by simplifying and standardizing hosting of FOSIA. We will write an implementation that will allow having a simple way to provision the Internet application for the end user, from the HSP of his choice.
 
-Today, there is no such standard, and we believe it is something missing. We can see the emergence of Dockerfiles and Vagrantfiles around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another.
+Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another.
 
 ###  1.2. the relative advantage of the proposed innovation
 
 We believe that thanks to the fact that it's a standard, people will be free to move their FOSIA between HSP. They will even be able to start their own with their data. It is really important for us that people are free to change their HSP at any time.
 
 We are aiming at doing FOSIA as a Service, and the only people that are trying to solve this particular challenge right now are :
-- Yunohost
-- sandstorm
-- arkos
+- [YunoHost](https://yunohost.org/)
+- [Sandstorm](https://sandstorm.io/)
+- [arkos](https://arkos.io/)
 
-There is also owncloud and cozycloud, but they take the party of rewriting all FOSIA to offer an integrated user experience.
+There is also [ownCloud](http://owncloud.org/) and [Cozy](http://cozy.io/), but they take the party of rewriting all FOSIA to offer an integrated user experience.
 
 But nobody is thinking about the interoperability of such a service. So we propose to solve this challenge and offer them to follow the standard. We'll work closely with these people during all the standard creation process.
 
@@ -66,49 +66,49 @@ We believe writing software to make the Internet a better place is nice. But it 
 
 The idea of a personal/cloud app store is not new. A lot of people already try to solve this challenge:
 - freedom box
-- yunohost
-- sandstorm
-- arkos
-- cozy cloud
-- owncloud
+- [YunoHost](https://yunohost.org/)
+- [Sandstorm](https://sandstorm.io/)
+- [arkos](https://arkos.io/)
+- [Cozy](http://cozy.io/)
+- [ownCloud](http://owncloud.org/)
 
 There is already some sort of manifest file for every applications they host. But it is not at all standard between them. And there no easy way to migrate your data from one software to another.
 
-At the HSP level, for now, just two of them offer the service as well (owncloud and sandstorm). The idea during the implementation phase is to host them all, and offer the end user the choice for his app store (based on this existing list, and future software)
+At the HSP level, for now, just two of them offer the service as well ([ownCloud](http://owncloud.org/) and [Sandstorm](https://sandstorm.io/)). The idea during the implementation phase is to host them all, and offer the end user the choice for his app store (based on this existing list, and future software)
 
 ## 3. Existing work by us
 
-We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). At the HSP level, we already have static sites working with IPv6+SNI+SPDY, and an instance of yunohost. This allows us to provide emails and jabber for our end users.
+We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). At the HSP level, we already have static sites working with IPv6+SNI+SPDY, and an instance of [YunoHost](https://yunohost.org/). This allows us to provide emails and jabber for our end users.
 
 We'll start experimenting to switch these services from our 2 HSP, and from this experience, start to write the standard. We'll also start communicating on this idea soon, among the community of these softwares.
 
 ## 4. Project setup
 
-The project is divided in 2 sub projects.
+### 4.1 Two sub projects
 
-### 4.1 Standard hosting of FOSIA
+#### Standard hosting of FOSIA
 
 We firstly need to write a standard way of describing a FOSIA, with data that are created at runtime.
 
-### 4.2 Implementation
+#### Implementation
 
 Then we need to write an implementation of such standard and use it in production. We aim at being an HSP and run this standard. We call it the IndieHosters network.
 
-### 4.3 Funding
+### 4.2 Funding
 
 The goal is to entirely fund this by donations and its goals are entirely non-profit.
 
-### 4.4 Licences
+### 4.3 Licences
 
 We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else.
 
-### 4.5 People
+### 4.4 People
 
 The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor. Once the network is running in production, each IndieHoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
 
-Much of the expertise Michiel brings to the project, was built up as founder at unhosted.
+Much of the expertise Michiel brings to the project, was built up as founder at [unhosted](https://unhosted.org/).
 
-Pierre works since two years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like Chef and Packer.
+Pierre works since two years as DevOps and software engineer for Seedrs. During this time, he contributed to some automation tools like [Chef](http://www.getchef.com/) and [Packer](http://www.packer.io/).
 
 ## 5. Project planning
 
@@ -118,19 +118,18 @@ We decided to quit our current position to start this project fulltime on the fi
 - standard file to host FOSIA and describe linked data (Standard Name to be determined)
 
 #### 1st February 2015: implementation - beta release
-- a simple web app to provision users
+- a simple web application to provision users
 - a basic configuration for service provisioning tool to provide the following services
   - emails
-  - jabber
+  - [XMPP](http://xmpp.org/)
   - static html
-  - remoteStorage
-  - sockethub
-  - gitlab
-  - openphoto
-  - yunohost
-  - owncloud
-  - cozycloud
-  - wordpress
+  - [remoteStorage](http://remotestorage.io/)
+  - [sockethub](http://sockethub.org/)
+  - [gitlab](https://about.gitlab.com/)
+  - [YunoHost](https://yunohost.org/)
+  - [ownCloud](http://owncloud.org/)
+  - [Cozy](http://cozy.io/)
+  - [wordpress](http://wordpress.org/)
 
 At this stage users can ask us to manually perform the following actions
 - start a service
@@ -142,7 +141,7 @@ During the beta, most of the services are not yet automatic nor stables, but eve
 
 #### 1st April 2015: implementation - stable release
 
-- control panel: a web app to control the following functionalities
+- control panel: a web application to control the following functionalities
   - start a service
     - linked to an advanced configuration for automatic service provisioning
   - configure domain name (with ssl certificate)
@@ -196,9 +195,9 @@ For the implementation phase, the first risk is that we don't manage to convince
 To mitigate this risk we aim firstly at people aware of privacy issues on Internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
 
 For the long term sustainability, we aim our standard to all kind of hosters:
-- for-profit hosters (e.g. OVH, Gandi, 1and1)
+- for-profit hosters (e.g. [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/))
 - hosters reselling personal data (we are fine with that as long as the end user is aware)
-- non-profit hosters (e.g. riseup, ecobytes, IndieHosters)
+- non-profit hosters (e.g. [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about), [IndieHosters](https://indiehosters.net/))
 
 We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
 
