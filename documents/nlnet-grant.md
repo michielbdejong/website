@@ -42,7 +42,7 @@ But nobody is thinking about the interoperability of such a service. So we propo
 
 And if you compare us to google/facebook, our advantage is that we don't aim at selling personal data.
 
-At the end of the day, when we'll setup the implementation of the standard, we'll also be a HSP, but an independent one. We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
+At the end of the day, when we'll setup the implementation of the standard, we'll also be an HSP, but an independent one. We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
 
 ###  1.3. usability: for whom and to what purpose
 
@@ -86,11 +86,25 @@ We'll start experimenting to switch these services from our 2 HSP, and from this
 
 The project is divided in 2 sub projects.
 
-The first one is writing a standard way of describing a FOSIA, with data that are created at runtime.
+### 4.1 Standard hosting of FOSIA
 
-The second is writing an implementation of such standard and use it in production. We aim at being an HSP and run this standard. We call it the IndieHosters network.
+We firstly need to write a standard way of describing a FOSIA, with data that are created at runtime.
 
-The goal is to entirely fund this by donations and its goals are entirely non-profit. We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else. The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor. Once the network is running in production, each indiehoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
+### 4.2 Implementation
+
+Then we need to write an implementation of such standard and use it in production. We aim at being an HSP and run this standard. We call it the IndieHosters network.
+
+### 4.3 Funding
+
+The goal is to entirely fund this by donations and its goals are entirely non-profit.
+
+### 4.4 Licences
+
+We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else.
+
+### 4.5 People
+
+The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor. Once the network is running in production, each IndieHoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
 
 Much of the expertise Michiel brings to the project, was built up as founder at unhosted.
 
@@ -98,7 +112,7 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 
 ## 5. Project planning
 
-We decided to quit our current position to start this project fulltime on the first of October. We are now in alpha phase with a bit less than ten alpha testers of the indieHosters network. We aim at reaching beta for first of February. Here is our planning, with deliverables, for the next two quarterly.
+We decided to quit our current position to start this project fulltime on the first of October. We are now in alpha phase with a bit less than ten alpha testers of the IndieHosters network. We aim at reaching beta for first of February. Here is our planning, with deliverables, for the next two quarterly.
 
 #### 1st of December 2014: draft standard
 - standard file to host FOSIA and describe linked data (Standard Name to be determined)
@@ -165,26 +179,26 @@ Two financing plans are thought:
 - the perfect one: NLnet finances the standard and the implementation.
 - if it is not possible, we ask NLnet to kindly finance the standard, and we take care of financing the implementation through crowdfunding and freelance.
 
-In the latter case, the implementation stable release would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
+In the latter case, the stable release of the implementation would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
 
 ## 7. Project risks
 
 ###  7.1. HSP standard Adoption
 
-If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already exisiting app store manifest files. This way we can have an easy implementation for the already existing app store.
+If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already existing app store manifest files. This way we can have an easy implementation for the already existing app store.
 
 To mitigate this risk, we really need to focus on involving the community as soon as possible during the project. The sooner the better. And we also need to involve as many different actors as possible, i.e. for-profit HSP, associatives HSP, FOSIA store.
 
 ###  7.2. End users Adoption
 
-For the implementation phase, the first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for our indiehost network long term sustainability, we aim at a donation based business model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they can have in exchange of their private data (which people value less and less).
+For the implementation phase, the first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for our IndieHosters network long term sustainability, we aim at a pay-what-you-like model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they can have in exchange of their private data (which people value less and less).
 
 To mitigate this risk we aim firstly at people aware of privacy issues on Internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
 
 For the long term sustainability, we aim our standard to all kind of hosters:
 - for-profit hosters (e.g. OVH, Gandi, 1and1)
 - hosters reselling personal data (we are fine with that as long as the end user is aware)
-- non-profit hosters (e.g. riseup, ecobytes, indiehosters)
+- non-profit hosters (e.g. riseup, ecobytes, IndieHosters)
 
 We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
 
@@ -194,10 +208,10 @@ We'll start from the beginning of the project to involve FOSIA community to writ
 
 And once we release the stable version of our implementation, we have a creative way of disseminating the project. The idea is to replace the traditional `demo` button you can find on many FOSIA projects by a `sign up` button. This button will bring the user to his HSP and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSIA developers to implement this functionality on the project page before they launch it in the media.
 
-It will be a win/win partnership. FOSIA developers will be happy because they will have more users using their application (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more indiehosters).
+It will be a win/win partnership. FOSIA developers will be happy because they will have more users using their application (so more people contributing to it). And we will be happy because we will have more users using our infrastructure (and at the end, more IndieHosters).
 
 ## 9. Follow-ups on the project
 
-This is a long term project. We ask NLnet help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our offer.
+This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our offer.
 
 If we don't have anymore funding, that's also fine. If enough people are using it, more and more HSP will be there. So the community will be able to maintain the product by itself. And us, the founders, will continue to maintain our hosts and provide FOSIA (added by the community) to our users.
