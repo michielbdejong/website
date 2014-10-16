@@ -1,0 +1,13 @@
+<div class="row">
+  {% for product in site.products %}
+  <article class="4u special">
+    <a href="{{ product.link }}" class="image featured"><img src="{{ product.image }}" alt="" /></a>
+    <header>
+      <h3><a href="{{ product.link }}">{{ product.title }}</a></h3>
+    </header>
+    <p>
+      {{ product.description }}
+    </p>
+  </article>
+  {% endfor %}
+</div>
