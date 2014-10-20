@@ -10,6 +10,7 @@ twitter_username: indiehosters
 github_username: indiehosters
 facebook_username: indiehosters
 googleplus_username: indiehosters
+irc: indiehosters
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',

@@ -100,7 +100,7 @@
   
     a:hover
     {
-      color: #ef8376;
+      color: #CF1580;
       border-bottom-color: transparent;
     }
 
@@ -224,7 +224,7 @@
       {
         display: block;
         font-size: 1.5em;
-        margin: 1em 0 2em 0;
+        margin: 1em 40px 2em 40px;
         line-height: 1.5em;
         text-align: inherit;
       }
@@ -235,6 +235,11 @@
     }
 
   /* Image */
+
+    .circled
+    {
+      border-radius: 50%;
+    }
 
     .image
     {
@@ -251,18 +256,40 @@
         display: block;
         width: 100%;
       }
+      
 
       .image.fit
       {
         display: block;
-        width: 100%;
+        width: 50%;
       }
 
       .image.featured
       {
         display: block;
         width: 100%;
-        margin: 0 0 4em 0;
+        margin: 0 0 64px 0;
+      }
+      
+      .image.featured.product
+      {
+        color: #fff;
+        background-size: 100%;
+        text-align: center;
+        font-size: 106px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      
+      .image.featured.offer
+      {
+        color: #fff;
+        background-size: auto;
+        width: 288px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 75px;
       }
       
       .image.left
@@ -560,13 +587,13 @@
     {
       position: relative;
       display: inline-block;
-      background: #df7366;
+      background: #CF77AA;
       color: #fff;
       text-align: center;
       border-radius: 0.5em;
       text-decoration: none;
       padding: 0.65em 3em 0.65em 3em;
-      border: 0;
+      border: 1px solid #CF77AA;
       cursor: pointer;
       outline: 0;
       font-weight: 300;
@@ -582,8 +609,9 @@
       input[type="reset"]:hover,
       .button:hover
       {
-        color: #fff;
-        background: #ef8376;
+        color: #CF77AA;
+        background: #fff;
+        border-color: #CF77AA;
       }
       
       input[type="button"].alt,
@@ -673,6 +701,12 @@
     padding: 6em 0 6em 0;
   }
   
+    .wrapper.before-carousel
+    {
+      background: none;
+      padding: 6em 0 0 0;
+    }
+
     .wrapper.style1
     {
     }
@@ -762,6 +796,7 @@
     {
       display: inline-block;
       border-radius: 100%;
+      border: none;
       width: 4.5em;
       height: 4.5em;
       line-height: 4.5em;
@@ -1143,7 +1178,7 @@
         position: absolute;
         top: 50%;
         margin: -1.5em 0 0 0;
-        background: url('/images/arrow.svg') no-repeat center center;
+        background: url('images/arrow.svg') no-repeat center center;
       }
 
       .carousel .forward:after
@@ -1174,7 +1209,7 @@
       .carousel .forward:hover:before,
       .carousel .backward:hover:before
       {
-        background-color: rgba(239,131,118, 0.75);
+        background-color: rgba(207,119,170, 0.75);
       }
 
     .carousel .reel
@@ -1210,11 +1245,11 @@
       .carousel article .image
       {
         position: relative;
-        left: -1em;
+        left: -16px;
         top: 0;
         width: auto;
-        margin-right: -2em;
-        margin-bottom: 3em;
+        margin-right: -32px;
+        margin-bottom: 48px;
       }
     
       .carousel article p

@@ -1,13 +1,23 @@
-<div class="row">
-  {% for product in site.products %}
-  <article class="4u special">
-    <a href="{{ product.link }}" class="image featured"><img src="{{ product.image }}" alt="" /></a>
+<div class="wrapper style1">
+  <section id="features" class="container special">
     <header>
-      <h3><a href="{{ product.link }}">{{ product.title }}</a></h3>
+      <h2>The Product</h2>
+      <p>Sign-up will be as easy as possible, including the domain name registration, DNS setup, and TLS certificate installation.</p>
     </header>
-    <p>
-      {{ product.description }}
-    </p>
-  </article>
-  {% endfor %}
+    <div class="row">
+      {% for product in site.products %}
+      <article class="4u special">
+        <div class="image featured product" style="background-image: url({{ product.image }});">
+          <i class="fa {{ product.icon }}"></i>
+        </div>
+        <header>
+          <h3>{{ product.title }}</h3>
+        </header>
+        <p>
+          {{ product.description }}
+        </p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 </div>
