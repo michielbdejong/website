@@ -1,0 +1,23 @@
+<div class="wrapper style1 before-carousel">
+  <section class="container special">
+    <header>
+      <h2>Applications offered</h2>
+      <p>We will offer many one-click install applications, including many unproven niche applications for which currently nobody is offering one-click hosting. It'll be a way to explore exciting decentralized technology!</p>
+    </header>
+  </section>
+</div>
+<section class="carousel">
+  <div class="reel">
+    {% for item in site.carousel_items %}
+      <article>
+        <a href="{{ item.link }}" class="image featured offer" style="background-image: url({{ item.image }});">
+          {{ item.icon }}
+        </a>
+        <header>
+          <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
+        </header>
+        {{ item.description }}
+      </article>
+    {% endfor %}
+  </div>
+</section>
