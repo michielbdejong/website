@@ -1,6 +1,8 @@
 indiehosters.net
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/michielbdejong/website.svg)](https://greenkeeper.io/)
+
 ## Requirements
   * Ruby 1.9+
   * [Node.js](http://nodejs.org)
