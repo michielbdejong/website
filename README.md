@@ -1,4 +1,4 @@
-indiehosters.net
+indiehosters.net - An Amazing Project
 ================
 
 ## Requirements
