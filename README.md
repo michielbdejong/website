@@ -1,6 +1,7 @@
+WELCOME TO
 indiehosters.net
 ================
-
+Requirements checks and setup required:
 ## Requirements
   * Ruby 1.9+
   * [Node.js](http://nodejs.org)
