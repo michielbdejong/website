@@ -272,7 +272,7 @@
           }).trigger('resize');
         
         }
-
+        //
         if (settings.header.fadeIn) {
 
           $.n33_preloadImage = function(url, onload) { var $img = $('<img />'), _IEVersion = (navigator.userAgent.match(/MSIE ([0-9]+)\./) ? parseInt(RegExp.$1) : 99); $img.attr('src', url); if ($img.get(0).complete || _IEVersion < 9) (onload)(); else $img.load(onload); };
