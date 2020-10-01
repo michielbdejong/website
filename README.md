@@ -1,15 +1,17 @@
 indiehosters.net
 ================
 
-## Requirements
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
+## Requirements:
+  * Ruby 1.9+ is neccessary to learn for indiehosters.
+  * [Node.js](http://nodejs.org) Node.js in given link to read easily.
 
-## Install
+## Easy to Install:
   * `git clone https://github.com/indiehosters/website.git`
   * `npm install; bundle`
 
-## Running
+## Write code:
+  * `There you can code a stylish looks to improve you to code development.
+## Running:
   * `grunt serve`
 
 ## Easier development:
@@ -17,4 +19,5 @@ indiehosters.net
 
 ## Credits
 
-The theme is based on the beautiful helios html5 template from html5up.com. If you look for a jekyll version of this theme, heads to the [initial commit](https://github.com/indiehosters/website/tree/83c6b86295cb43888b1a7e565a85045b641677db), and you'd be fine to start :)
+* `The theme is based on the beautiful helios html5 template from html5up.com. If you look for a jekyll version of this theme, heads to the [initial commit]       (https://github.com/indiehosters/website/tree/83c6b86295cb43888b1a7e565a85045b641677db), and you'd be fine to start :)
+
