@@ -7,7 +7,7 @@ indiehosters.net
 
 ## Install
   * `git clone https://github.com/indiehosters/website.git`
-  * `npm install; bundle`
+  * `npm install bundle` ##this will help the user to directly copy paste the code for installing bundle
 
 ## Running
   * `grunt serve`
