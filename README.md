@@ -1,4 +1,6 @@
 indiehosters.net
+
+an amazing website
 ================
 
 ## Requirements
